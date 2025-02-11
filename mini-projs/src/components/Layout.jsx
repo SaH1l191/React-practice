@@ -57,6 +57,12 @@ function Layout({ children }) {
                     >
                         SearchBar
                     </NavLink>
+                    <NavLink
+                        to="/pagination"
+                        className={({ isActive }) => isActive ? "mr-4 text-yellow-500" : "mr-4"}
+                    >
+                        Pagination
+                    </NavLink>
                 </nav>
             </header>
 
