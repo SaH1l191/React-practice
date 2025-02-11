@@ -9,6 +9,8 @@ import Layout from './components/Layout'
 import ColorPage from './components/colorPage'
 import ProgressBar from './components/ProgressBar'
 import SearchBar from './components/SearchBar'
+import Pagination from './components/Pagination'
+import TabsForm from './components/TabsForm'
 function App() {
 
 
@@ -27,6 +29,8 @@ function App() {
           <Route path='/colorPage' element={<ColorPage />} />
           <Route path='/progressBar' element={<ProgressBar />} />
           <Route path='/searchBar' element={<SearchBar />} />
+          <Route path='/pagination' element={<Pagination />} />
+          <Route path='/tabs' element={<TabsForm />} />
         </Routes>
       </div>
     </Layout>
