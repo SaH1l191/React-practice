@@ -11,6 +11,7 @@ import ProgressBar from './components/ProgressBar'
 import SearchBar from './components/SearchBar'
 import Pagination from './components/Pagination'
 import TabsForm from './components/TabsForm'
+import Folder from './components/Folder'
 function App() {
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/searchBar' element={<SearchBar />} />
           <Route path='/pagination' element={<Pagination />} />
           <Route path='/tabs' element={<TabsForm />} />
+          <Route path='/folder' element={<Folder />} />
         </Routes>
       </div>
     </Layout>

@@ -7,7 +7,7 @@ function Layout({ children }) {
 
 
     const { themeMode, toggleTheme } = useTheme();
-    console.log(themeMode)
+    // console.log(themeMode)
 
     return (
         <div className="flex flex-col min-h-screen bg-gray-100">
@@ -63,6 +63,13 @@ function Layout({ children }) {
                     >
                         Pagination
                     </NavLink>
+                    <NavLink
+                        to="/folder"
+                        className={({ isActive }) => isActive ? "mr-4 text-yellow-500" : "mr-4"}
+                    >
+                        Folder
+                    </NavLink>
+                   
                 </nav>
             </header>
 
