@@ -1,0 +1,51 @@
+1. Build a Todo App
+Task: Build a simple Todo application with features like adding, deleting, and editing tasks. Implement state management using React hooks (useState and useEffect).
+Skills Tested: State management, hooks, handling user inputs, event handling.
+2. Build a Modal Component
+Task: Create a reusable modal component in React. The modal should be able to show content passed as children and handle open/close actions.
+Skills Tested: Component design, conditional rendering, props, state handling, accessibility.
+3. Create a Counter with Increment/Decrement and Reset
+Task: Build a counter app where the user can increment, decrement, and reset the count. The app should manage the count state and display it in a simple UI.
+Skills Tested: State management, event handling, basic React functionality.
+4. Build a Simple Form with Validation
+Task: Create a form with input fields (e.g., name, email) and implement client-side validation to ensure the inputs are correct (e.g., check if the email is valid).
+Skills Tested: Form handling, controlled components, validation, managing form state.
+5. Create a Pagination Component
+Task: Implement a pagination component that divides a list of data into pages and allows users to navigate between pages.
+Skills Tested: Handling arrays, pagination logic, state management, event handling.
+6. Build a Simple Searchable List
+Task: Implement a searchable list where the user can type in a search query and filter the list of items dynamically.
+Skills Tested: Dynamic rendering, state management, input handling, filtering logic.
+7. Create a Weather App
+Task: Build a weather app that fetches data from a public API (e.g., OpenWeatherMap) and displays the current weather. Include features like location input, temperature display, and weather condition.
+Skills Tested: API integration, state management, asynchronous handling (useEffect), error handling.
+8. Build a Drag-and-Drop UI (e.g., Task List or Kanban Board)
+Task: Implement a drag-and-drop interface for a list of items or tasks (like a simple Kanban board).
+Skills Tested: DOM manipulation, drag-and-drop functionality, state management, and handling dynamic UI updates.
+9. Create a Light/Dark Mode Toggle
+Task: Implement a UI with a toggle switch that allows the user to switch between light and dark themes. The theme should persist even after the page is reloaded.
+Skills Tested: React state, event handling, CSS class management, local storage for persistence.
+10. Build a Simple Chat UI
+Task: Design a chat interface where messages can be added to a chat history, and new messages are displayed in a scrolling view.
+Skills Tested: List rendering, dynamic updates, state management, conditional rendering.
+11. Build a Real-Time Search with Debouncing
+Task: Implement a real-time search feature where search results are updated as the user types, but with a debounce effect to optimize performance.
+Skills Tested: Event handling, useState, useEffect, debouncing techniques.
+12. Build a Notes App with Categories
+Task: Implement a notes application where users can create, edit, delete, and categorize notes. Notes should be stored in categories (e.g., Work, Personal).
+Skills Tested: Component structure, state management, CRUD operations, conditional rendering, props handling.
+13. Create an Image Carousel/Slider
+Task: Build a simple image carousel that displays a list of images, allows navigation between images, and includes previous/next buttons.
+Skills Tested: Dynamic rendering, state management, event handling, animations (optional).
+14. Build a Todo App with Drag-and-Drop Task Reordering
+Task: Enhance the Todo app by implementing the ability to reorder tasks using drag-and-drop functionality.
+Skills Tested: Drag-and-drop, state updates, handling lists, UI design.
+15. Create an Infinite Scroll List
+Task: Implement an infinite scrolling list where new data is fetched and added to the list as the user scrolls down (similar to social media feeds).
+Skills Tested: Handling scroll events, API integration, asynchronous data fetching, dynamic list rendering.
+16. Build a Real-Time Notification System
+Task: Create a simple notification system where notifications appear in the UI, and they disappear after a certain time.
+Skills Tested: State management, lifecycle methods, setTimeout or setInterval, and user interaction.
+17. Implement a Quiz App
+Task: Build a quiz app that displays multiple-choice questions. The user selects answers, and at the end, they see their score.
+Skills Tested: Component composition, state management, event handling, conditional rendering.
